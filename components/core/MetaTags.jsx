@@ -9,6 +9,8 @@ export default function MetaTags() {
             <title>
                 {SITE.title}
             </title>
+	  <meta content='width=device-width'/>
+	  <link rel='icon' href="/favicon.ico"/>
             <meta name='description' content={SITE.description} />
         </Head>
     </React.Fragment>
